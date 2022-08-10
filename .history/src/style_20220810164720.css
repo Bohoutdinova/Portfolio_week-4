@@ -1,0 +1,10 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif; */
+.navbar-brand {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.nav-link {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
