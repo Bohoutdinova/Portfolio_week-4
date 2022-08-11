@@ -55,14 +55,14 @@ img {
 .contact-me {
   font-family: var(--main-family-font);
   padding: 15px 25px;
-  background-color: var(--main-color);
+  background-color: #fa434c;
   color: white;
   font-size: 18px;
-  border: 2px solid var(--main-color);
+  border: 2px solid #fa434c;
 }
 .contact-me:hover {
-  color: var(--main-color);
+  color: #fa434c;
   background-color: white;
-  border-color: var(--main-color);
+  border-color: #fa434c;
   text-decoration: none;
 }

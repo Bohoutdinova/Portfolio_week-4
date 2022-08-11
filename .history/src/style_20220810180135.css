@@ -1,0 +1,27 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif; */
+:root {
+  --main-family-font: "Poppins", sans-serif;
+  --second-family-font: "Abril Fatface", cursive;
+}
+
+.navbar-brand {
+  position: relative;
+  padding-left: 25px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.nav-link {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand:before {
+  position: absolute;
+  content: "🍎";
+  left: 0;
+  top: 3px;
+}
+
+.navbar-brand:hover:before {
+  content: "🍏";
+}

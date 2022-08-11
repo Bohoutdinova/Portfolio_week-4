@@ -1,6 +1,5 @@
 :root {
   --main-family-font: "Poppins", sans-serif;
-  --main-color: #fa434c;
 }
 
 .navbar-brand {
@@ -38,31 +37,4 @@ h1 {
 h3 {
   font-family: var(--main-family-font);
   font-size: 25px;
-  font-weight: 400;
-  opacity: 70%;
-}
-.hero-page h3 {
-  margin-bottom: 60px;
-}
-img {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.col-sm-6 {
-  padding: 0;
-}
-.contact-me {
-  font-family: var(--main-family-font);
-  padding: 15px 25px;
-  background-color: var(--main-color);
-  color: white;
-  font-size: 18px;
-  border: 2px solid var(--main-color);
-}
-.contact-me:hover {
-  color: var(--main-color);
-  background-color: white;
-  border-color: var(--main-color);
-  text-decoration: none;
 }

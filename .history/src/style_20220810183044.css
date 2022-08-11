@@ -1,6 +1,5 @@
 :root {
   --main-family-font: "Poppins", sans-serif;
-  --main-color: #fa434c;
 }
 
 .navbar-brand {
@@ -55,14 +54,7 @@ img {
 .contact-me {
   font-family: var(--main-family-font);
   padding: 15px 25px;
-  background-color: var(--main-color);
+  background-color: #ce5f7e;
   color: white;
-  font-size: 18px;
-  border: 2px solid var(--main-color);
-}
-.contact-me:hover {
-  color: var(--main-color);
-  background-color: white;
-  border-color: var(--main-color);
-  text-decoration: none;
+  font-size: 20px;
 }

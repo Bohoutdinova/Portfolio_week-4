@@ -1,0 +1,37 @@
+:root {
+  --main-family-font: "Poppins", sans-serif;
+  --second-family-font: "Abril Fatface", cursive;
+}
+
+.navbar-brand {
+  position: relative;
+  padding-left: 25px;
+  font-family: var(--main-family-font);
+  font-weight: 500;
+}
+.nav-link {
+  font-family: var(--main-family-font);
+}
+
+.navbar-brand:before {
+  position: absolute;
+  content: "🍎";
+  left: 0;
+  top: 3px;
+}
+
+.navbar-brand:hover:before {
+  content: "🍏";
+}
+.hero-page {
+  text-align: center;
+}
+h2 {
+  font-family: var(--main-family-font);
+  font-weight: 400;
+}
+h1 {
+  font-family: var(--main-family-font);
+  font-weight: 700;
+  font-size: 65px;
+}
