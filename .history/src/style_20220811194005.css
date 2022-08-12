@@ -92,7 +92,7 @@ img {
   color: black;
 }
 .row {
-  margin-top: 50px;
+  margin-top: 15px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -102,6 +102,9 @@ img {
     font-size: 20px;
   }
   .row {
+    margin-top: 0;
+  }
+  .col {
     margin-top: 0;
   }
 }

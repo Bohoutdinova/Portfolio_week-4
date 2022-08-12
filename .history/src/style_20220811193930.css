@@ -91,9 +91,6 @@ img {
   text-decoration: none;
   color: black;
 }
-.row {
-  margin-top: 50px;
-}
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -102,6 +99,9 @@ img {
     font-size: 20px;
   }
   .row {
+    margin-top: 0;
+  }
+  .col {
     margin-top: 0;
   }
 }

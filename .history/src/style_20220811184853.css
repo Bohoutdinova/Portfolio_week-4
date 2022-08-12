@@ -2,14 +2,15 @@
   --main-family-font: "Poppins", sans-serif;
   --main-color: #fa434c;
 }
-body {
-  font-family: var(--main-family-font);
-}
 
 .navbar-brand {
   position: relative;
   padding-left: 25px;
+  font-family: var(--main-family-font);
   font-weight: 500;
+}
+.nav-link {
+  font-family: var(--main-family-font);
 }
 
 .navbar-brand:before {
@@ -25,7 +26,9 @@ body {
 .hero-page {
   text-align: center;
 }
-
+h1 h2 h3 {
+  font-family: var(--main-family-font);
+}
 h2 {
   font-weight: 400;
 }
@@ -50,6 +53,7 @@ img {
   padding: 0;
 }
 .contact-me {
+  font-family: var(--main-family-font);
   padding: 15px 25px;
   background-color: var(--main-color);
   color: white;
@@ -63,6 +67,7 @@ img {
   text-decoration: none;
 }
 .about-app {
+  font-family: var(--main-family-font);
   text-align: center;
 }
 .app-name {
@@ -70,38 +75,10 @@ img {
   font-weight: 700;
 }
 .app {
-  background-color: rgb(255, 216, 216, 30%);
+  background-color: rgb(255, 216, 216, 0.4);
 }
 .app-description {
   padding: 15px 25px;
   margin: 30px;
   text-align: center;
-}
-.app-description-p {
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-.app-link {
-  color: var(--main-color);
-  padding: 15px 25px;
-  font-size: 18px;
-  border: 2px solid rgb(255, 216, 216);
-}
-.app-link:hover {
-  text-decoration: none;
-  color: black;
-}
-.row {
-  margin-top: 50px;
-}
-@media (max-width: 900px) {
-  h1 {
-    font-size: 45px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  .row {
-    margin-top: 0;
-  }
 }
