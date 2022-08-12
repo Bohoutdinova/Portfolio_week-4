@@ -111,3 +111,6 @@ img {
 .about-page {
   text-align: center;
 }
+.about-page ul {
+  margin-bottom: 20px;
+}

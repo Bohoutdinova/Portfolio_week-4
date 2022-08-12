@@ -107,7 +107,10 @@ img {
   .row {
     margin-top: 0;
   }
-}
-.about-page {
-  text-align: center;
+  .container {
+    margin: 0px;
+  }
+  .me-photo {
+    margin: 0px;
+  }
 }

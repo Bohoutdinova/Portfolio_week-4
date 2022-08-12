@@ -95,7 +95,7 @@ img {
   margin-top: 50px;
 }
 .about-description {
-  text-align: left;
+  text-align: right;
 }
 @media (max-width: 900px) {
   h1 {
@@ -107,7 +107,4 @@ img {
   .row {
     margin-top: 0;
   }
-}
-.about-page {
-  text-align: center;
 }
