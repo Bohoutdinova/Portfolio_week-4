@@ -4,6 +4,7 @@
 }
 body {
   font-family: var(--main-family-font);
+  line-height: 0;
 }
 
 .navbar-brand {
@@ -132,7 +133,6 @@ img {
   font-size: 20px;
   color: black;
   text-align: center;
-  margin: 30px 0 0 0;
 }
 .email-link:hover {
   text-decoration: none;
@@ -141,26 +141,8 @@ img {
 footer .links-i-block a {
   margin: 0px 20px;
   color: var(--main-color);
-  background-color: rgb(255, 216, 216, 0.3);
+  background-color: rgb(255, 216, 216);
   padding: 14px 14px;
   font-size: 25px;
   border-radius: 50%;
-  line-height: 0;
-}
-footer .links-i-block a:hover {
-  color: white;
-  background-color: #fa434c;
-}
-footer .box-contacts {
-  padding: 30px 120px;
-  background-color: rgb(255, 216, 216, 0.3);
-  margin: 0;
-  align-items: center;
-  border-radius: 4px;
-}
-footer .box-contacts p {
-  margin: 0;
-}
-footer .footer-h4 {
-  font-weight: 600;
 }

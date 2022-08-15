@@ -156,11 +156,8 @@ footer .box-contacts {
   background-color: rgb(255, 216, 216, 0.3);
   margin: 0;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 25%;
 }
 footer .box-contacts p {
   margin: 0;
-}
-footer .footer-h4 {
-  font-weight: 600;
 }
