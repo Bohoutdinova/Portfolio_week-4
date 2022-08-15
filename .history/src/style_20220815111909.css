@@ -108,7 +108,8 @@ img {
     margin-top: 0;
   }
   .container-contacts {
-    text-align: center;
+    padding: 20px;
+    margin: 0px 20px;
   }
 }
 .about-page {

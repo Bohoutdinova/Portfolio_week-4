@@ -108,6 +108,8 @@ img {
     margin-top: 0;
   }
   .container-contacts {
+    padding: 20px;
+    margin: 0px 20px;
     text-align: center;
   }
 }
