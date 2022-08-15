@@ -120,7 +120,6 @@ img {
 .works-p {
   font-size: 12px;
 }
-.container-contacts {
-  padding: 160px 20px;
-  margin: 0px 60px;
+.contacts-container {
+  margin-top: 100px;
 }
